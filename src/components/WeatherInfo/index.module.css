@@ -1,0 +1,58 @@
+.weatherInfo {
+  margin: 0rem 3rem;
+}
+
+.weatherInfo h1 {
+  font-size: 6rem;
+}
+
+.weatherInfo h3 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.weatherInfo h3 img {
+  width: 3rem;
+}
+
+.extraInfo {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.extraInfo p {
+  margin-bottom: 0rem;
+  text-align: left;
+}
+
+hr {
+  background-color: #1e333a;
+  border: none;
+  width: 0.1rem;
+}
+
+@media (max-width: 500px) {
+  .weatherInfo,
+  .extraInfo {
+    margin: 0rem 1rem;
+    text-align: center;
+  }
+
+  .weatherInfo h1 {
+    font-size: 4rem;
+  }
+
+  .weatherInfo h3 {
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+
+  .extraInfo {
+    justify-content: center;
+  }
+}

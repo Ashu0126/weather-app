@@ -1,0 +1,46 @@
+.weatherHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 3rem;
+  flex-wrap: wrap-reverse;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input {
+  border-radius: 5rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: black;
+}
+
+button {
+  padding: 0.5rem 0.7rem;
+  background-color: #1e333aa9;
+  border-radius: 3rem;
+  border: none;
+}
+
+button img {
+  width: 1rem;
+}
+
+@media (max-width: 500px) {
+  .weatherHeader {
+    justify-content: center;
+    margin: 0rem 1rem;
+  }
+}
