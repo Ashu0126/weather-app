@@ -32,15 +32,15 @@ To run this project locally, follow these steps:
    
 2. Navigate to the project directory:
 
-  cd weather-app
+     cd weather-app
 
 3. Install dependencies using Yarn:
 
-  yarn install
+     yarn install
 
 4. Start the development server:
 
-  yarn start
+     yarn start
 
 5.Open your browser and visit http://localhost:3000 to view the app.
 
@@ -52,7 +52,7 @@ Real-time weather details for the entered city will be displayed.
 ## API Usage
 This app uses the OpenWeather API to fetch real-time weather data. You need to sign up on the OpenWeather website to obtain an API key.
 
-##Credits
+## Credits
 Weather data provided by OpenWeather
 Icons provided by Weather Icons
 This project was bootstrapped with Create React App.
