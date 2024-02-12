@@ -27,15 +27,15 @@ To run this project locally, follow these steps:
    
 2. Navigate to the project directory:
 
-  ``bash
+  ```bash
   cd weather-app
-  Install dependencies using Yarn:
+  Install dependencies using Yarn
 
-  ``bash
+  ```bash
   yarn install
   Start the development server:
 
-  ``bash
+  ```bash
   yarn start
   Open your browser and visit http://localhost:3000 to view the app.
 
