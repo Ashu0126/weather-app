@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 
      yarn start
 
-5.Open your browser and visit http://localhost:3000 to view the app.
+5. Open your browser and visit http://localhost:3000 to view the app.
 
 ## Usage
 Enter the name of the city for which you want to check the weather.
