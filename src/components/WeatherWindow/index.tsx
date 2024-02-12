@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import WeatherInfo from "../WeatherInfo";
 import style from "./index.module.css";
-import location from "./../../location-marker.svg";
 
 const WeatherWindow = () => {
   const [city, setCity] = useState("Delhi");
@@ -33,7 +32,7 @@ const WeatherWindow = () => {
     <div className="WeatherWindow">
       <div className={style.weatherHeader}>
         <div className={style.cityName}>
-          <img src={location} alt="" />
+          <img src={"/location-marker.svg"} alt="" />
           <h2>
             {weatherDetails?.cod !== "404"
               ? `${weatherDetails?.name}, ${weatherDetails?.sys?.country}`
